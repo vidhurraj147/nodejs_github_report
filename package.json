@@ -1,0 +1,19 @@
+{
+  "name": "github-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vidhurraj147/nodejs_github_report.git"
+  },
+  "author": "Kadgekar Rahul Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vidhurraj147/nodejs_github_report/issues"
+  },
+  "homepage": "https://github.com/vidhurraj147/nodejs_github_report#readme"
+}
