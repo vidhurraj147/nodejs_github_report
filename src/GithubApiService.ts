@@ -1,9 +1,18 @@
 import * as request from 'request';
 
-class GithubApiService{
+export class GithubApiService{
+    
     getUserInfo(userName: string){
-        request.get('https://api.github.com/users/'+userName, null, (response: any) => {
-            console.log(response);
+        let options: any = {
+            headers: {
+                "User-Agent": "request"
+            }
+        };
+
+        request.get('https://api.github.com/users/'+userName,options,(error: any, response: any, body: any) => {
+            console.log("response-->"+response);
+            console.log("error-->"+error);
+            console.log("body-->"+body);
         })
     }
 
