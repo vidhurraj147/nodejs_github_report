@@ -20,11 +20,11 @@ export class GithubApiService{
         // };
 
         request.get('https://api.github.com/users/'+userName, OPTIONS, (error: any, response: any, body: any) => {
-            console.log("response-->"+response);
-            console.log(response);
-            console.log("error-->"+error);
-            console.log(error);
-            console.log("body-->"+body);
+            // console.log("response-->"+response);
+            // console.log(response);
+            // console.log("error-->"+error);
+            // console.log(error);
+            // console.log("body-->"+body);
             console.log(body);
             // let user = new User(JSON.parse(body));
             let user = new User(body);
